@@ -1,0 +1,116 @@
+/* CSS For the Link in Bio */
+
+body {
+	margin: 0;
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,206,250,1) 0%, rgba(14,111,243,1) 100%, rgba(0,98,255,1) 100%, rgba(41,77,233,1) 100%);
+	font-family: monospace;
+	
+}
+
+.container {
+	position: relative;
+	top: 0%;
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+@media only screen and (max-width: 1450px) {
+	.container {
+		width:100vw;
+	}
+}
+
+.profilepicture {
+	position:relative;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_Vancouver_Technical_Secondary_School.svg/1200px-Logo_Vancouver_Technical_Secondary_School.svg.png");
+	border-radius:50%;
+	margin:auto; /*Centers*/
+	top:50px;
+	border: 3px solid #FFFFFF;
+
+	background-position: 50% 50%;
+    background-size: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+.name {
+	position:relative;
+	text-align:center;
+	color:white;
+	font-size:30px;
+	top: 60px;
+	font-weight:bold;
+	margin-bottom:100px;
+}
+
+.link_container {
+	position: relative;
+	display: block;
+	width: 80%;
+	height: 70px;
+	color: #000;
+	background: #FFF;
+	margin: 0 auto;
+	font-size: 25px;
+	text-align: center;
+	line-height: 70px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: 0.4s;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.link_container:hover {
+	transform: scale(1.05);
+	background: #000;
+	color: white;
+	border: #FFF solid;
+	box-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 15px #FFFFFF, 0 0 20px #FFFFFF;
+}
+
+.icon {
+
+}
+.fa-globe {color: #00B5FE;}
+.fa-instagram {color: #C13584;}
+.fa-discord {color: #7289DA;}
+
+footer {
+	position: fixed;
+	top: 95%;
+	left: 20px;
+}
+
+.trademark {
+	color: white;
+}
+
+/* PARTICLE ANIMATION */
+
+/* ---- reset ---- */
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+/* PARTICLE ANIMATION ^^^ */
+
+
