@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	background: rgb(34,193,195);
-	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,206,250,1) 0%, rgba(14,111,243,1) 100%, rgba(0,98,255,1) 100%, rgba(41,77,233,1) 100%);
+	background: linear-gradient(0deg, #224C8D 0%, #224C8D 0%, rgba(14,111,243,1) 100%, rgba(0,98,255,1) 100%, rgba(41,77,233,1) 100%);
 	font-family: monospace;
 	
 }
@@ -14,7 +14,8 @@ body {
 	width: 1000px;
 	display: block;
 	margin: 0 auto;
-	min-height: 100vh;
+	min-height: 85vh;
+	margin-bottom: 15vh;
 }
 
 @media only screen and (max-width: 1450px) {
@@ -25,14 +26,14 @@ body {
 
 .profilepicture {
 	position:relative;
-	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_Vancouver_Technical_Secondary_School.svg/1200px-Logo_Vancouver_Technical_Secondary_School.svg.png");
+	background-image: url("../images/linkinbiologo.png");
 	border-radius:50%;
 	margin:auto; /*Centers*/
 	top:50px;
 	border: 3px solid #FFFFFF;
 
 	background-position: 50% 50%;
-    background-size: 100%;
+    background-size: 110%;
     width: 120px;
     height: 120px;
 }
@@ -56,7 +57,6 @@ body {
 	background: #FFF;
 	margin: 0 auto;
 	font-size: 25px;
-	text-align: center;
 	line-height: 70px;
 	text-decoration: none;
 	border-radius: 10px;
@@ -74,11 +74,23 @@ body {
 }
 
 .icon {
-
+	position: absolute;
+	font-size: 25px;
+	top: 22.5px;
+	margin-left: 25px;
+	display: inline-block;
+	text-align: left;
 }
 .fa-globe {color: #00B5FE;}
 .fa-instagram {color: #C13584;}
 .fa-discord {color: #7289DA;}
+
+.linktext {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
 
 footer {
 	position: fixed;
