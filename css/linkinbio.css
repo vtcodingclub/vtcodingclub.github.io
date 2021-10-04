@@ -79,17 +79,22 @@ body {
 	top: 22.5px;
 	margin-left: 25px;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 }
 .fa-globe {color: #00B5FE;}
 .fa-instagram {color: #C13584;}
-.fa-discord {color: #7289DA;}
+.fa-discord {color: #7289DA; margin-left:20px;}
 
 .linktext {
 	display: inline-block;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	color: #224c8d;
+}
+
+.link_container:hover .linktext {
+	color: white;
 }
 
 footer {
