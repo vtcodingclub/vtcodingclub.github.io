@@ -81,8 +81,11 @@ body {
 	display: inline-block;
 	text-align: center;
 }
+
+
 .fa-globe {color: #00B5FE;}
 .fa-instagram {color: #C13584;}
+
 .fa-discord {color: #7289DA; margin-left:20px;}
 
 .linktext {
@@ -95,6 +98,23 @@ body {
 
 .link_container:hover .linktext {
 	color: white;
+}
+
+.link_container:hover .icon {
+	color: white;
+}
+
+@media only screen and (max-width: 610px) {
+	.icon {
+		font-size: 0.9em;
+	}
+	.link_container {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.name {font-size: 25px;}
 }
 
 footer {
