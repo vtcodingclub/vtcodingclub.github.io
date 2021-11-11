@@ -5,7 +5,7 @@ body {
 	background: rgb(34,193,195);
 	background: linear-gradient(0deg, #224C8D 0%, #224C8D 0%, rgba(14,111,243,1) 100%, rgba(0,98,255,1) 100%, rgba(41,77,233,1) 100%);
 	font-family: monospace;
-	
+	overflow-x: hidden;
 }
 
 .container {
@@ -87,6 +87,8 @@ body {
 .fa-instagram {color: #C13584;}
 
 .fa-discord {color: #7289DA; margin-left:20px;}
+.fa-chalkboard-teacher {color:#224C8D;}
+.fa-paint-brush {color: #7289DA; margin-left:20px;}
 
 .linktext {
 	display: inline-block;
