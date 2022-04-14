@@ -1,0 +1,80 @@
+.nw_blue_square {
+    position: absolute;
+    width: 700px;
+    height: 465px;
+    left: 37px;
+    top: 112px;
+
+    background: #80AFF6;
+    border-radius: 35px;
+    z-index: 1;
+}
+
+.se_blue_square {
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    left: 709px;
+    top: 395px;
+
+    background: #80AFF6;
+    border-radius: 35px;
+    z-index: 1;
+}
+
+.grey_square {
+    position: absolute;
+    width: 1250px;
+    height: 600px;
+    left: 100px;
+    top: 169px;
+
+    background: #C4C4C4;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.backdrop {
+    position: absolute;
+    width: 1440px;
+    height: 917px;
+    left: 0px;
+    top: 0px;
+
+    background: #224C8D;
+    z-index: -2;
+}
+
+.about_header {
+    position: absolute;
+    width: 700px;
+    height: 58px;
+    left: 696px;
+    top: 310px;
+
+    font-family: 'Courier Prime', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81px;
+
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.about_text {
+    position: absolute;
+    width: 695.5px;
+    height: 164.94px;
+    left: 700.5px;
+    top: 440px;
+
+    font-family: 'Courier Prime', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+    z-index: 3;
+}
