@@ -50,12 +50,12 @@
     width: 700px;
     height: 58px;
     left: 696px;
-    top: 310px;
+    top: 341px;
 
     font-family: 'Courier Prime', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 3em;
     line-height: 81px;
 
     color: #FFFFFF;
@@ -64,15 +64,15 @@
 
 .about_text {
     position: absolute;
-    width: 695.5px;
+    width: 690px;
     height: 164.94px;
     left: 700.5px;
-    top: 440px;
+    top: 444px;
 
     font-family: 'Courier Prime', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.2em;
     line-height: 31px;
 
     color: #FFFFFF;
