@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.top_section {
+    background-color: #234C8A;
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+}
+
+.top_section img {
+    border-radius:25px;
+    width: 30%;
+    margin: 100px;
+    box-shadow: 5px -5px 40px -10px black;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    z-index: 1;
+}
+
+.top_section p {
+    margin: 80px;
+    z-index: 1;
+}
+
+#pentagon_1 {
+    position: absolute;
+	width: 22rem;
+	height: 22rem;
+	background: #588FE4;
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+    top: -34rem;
+    right: 50rem;
+}
+
+#pentagon_2 {
+    position: absolute;
+    transform: rotate(185deg);
+    width: 12rem;
+    height: 12rem;
+    background: #80AFF6;
+    clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+    top: -30rem;
+    right: 7rem;
+}
+
+#pentagon_3 {
+    position: absolute;
+	width: 18rem;
+	height: 18rem;
+	background: #89CAFF;
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+    top: -20rem;
+    right: 20rem;
+}
+
+.curved {
+    filter: url("#curve");
+}

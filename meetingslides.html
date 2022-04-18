@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Meeting Slides</title>
+    <link href="css/meetingslides.css" rel="stylesheet" type="text/css">
+		
+</head>
+<body>
+    <header>
+        <div class="top_section">
+            <img src="images\linkinbiologo.png" alt="club logo">
+            <p>
+                <span style="font-size: 2.8em; text-decoration: underline; text-decoration-color: black; text-decoration-thickness: 1px;">Meeting Slides</span><br>
+                Here are all of our past meeting slides. View them if u need help on a project or for fun idk you do you fam
+            </p>
+        </div>
+        
+        <div class="curved">
+            <div id="pentagon_3"></div>
+        </div>
+        <div class="curved">
+            <div id="pentagon_2"></div>
+        </div>
+        <div class="curved">
+            <div id="pentagon_1"></div>
+        </div>
+        
+        <svg viewBox="0 70 500 70" preserveAspectRatio="xMinYMin meet">
+            <path d="M 0 70 L50 140 L100 70 L150 140 L200 70 L250 140 L300 70 L350 140 L400 70 L450 140 L500 70 Z" style="stroke: none; fill: #234C8A;"></path>
+        </svg>
+
+        <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                  <filter id="curve"><feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />    
+                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="curve" />
+                      <feComposite in="SourceGraphic" in2="curve" operator="atop"/>
+                  </filter>
+              </defs>
+          </svg>
+    </header>
+</body>
