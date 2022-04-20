@@ -105,9 +105,9 @@ body {
 	}
 }
 
-h1 {
+.section_titles {
     color: var(--primary-color);
-    font-size: 72px;
+    font-size: 2em;
 }
 
 .collection .collection-pictures .desc_head {
@@ -130,16 +130,17 @@ div.gallery {
 }
   
 div.gallery .h img {
-    width: 371;
-    height: 371;
+    display: block;
+    width: 371px;
+    height: 371px;
     border-color: #1F2938;
 }
 
-* {
+/* * {
     box-sizing: border-box;
     border-radius: 10;
     border-image-width: 371;
-}
+} */
 
 div.desc_head{
     text-align: left;
