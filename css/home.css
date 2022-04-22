@@ -1,7 +1,3 @@
-:root {
-    --primary-color: #2D4B89;
-}
-
 body {
     margin: 0px;
     font-family: 'Courier Prime', monospace;
@@ -48,6 +44,17 @@ body {
 
 .navbar_li_right {
     float: right;
+}
+
+.hamburger_sidebar {
+    background-color: #234C8A;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: none;
+    margin: 0px 0px;
+    line-height: 100px;
+    padding-right: 35px;
 }
 
 .top_section {
@@ -105,76 +112,60 @@ body {
 	}
 }
 
-h1 {
-    color: var(--primary-color);
-    font-size: 72px;
+.hamburger_button {
+    background: #1F2938;
+    top: 10%;
+    line-height: 40px;
+    position: absolute;
+    right: 4%;
+    font-family: 'Courier Prime', monospace;
+    border: none;
+    color: white;
+    font-size: 16px;
+    display: none;
+    z-index: 10;
 }
 
-.collection .collection-pictures .desc_head {
-    color: #224C8D;
-    font-size: 29px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+.hamburger_bar {
+    background: #1F2938;
+    width: 100%;
+    height: 4em;
+    position: relative;
+    bottom: 0;
+    display: none;
+    z-index: 3;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.collection .collection-pictures .desc {
-    color: #224C8D;
-    font-size: 28px;
+.hamburger_bar:hover {
+    background: #80AFF6;
 }
 
-
-div.gallery {
-    margin: 10px;
-    border:none;
-    float: left;
-    padding: 10px;
-}
-  
-div.gallery .h img {
-    width: 371;
-    height: 371;
-    border-color: #1F2938;
+.hamburger_text {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: none;
+    margin: 0 0;
 }
 
-* {
-    box-sizing: border-box;
-    border-radius: 10;
-    border-image-width: 371;
+.hamburger_bar_text {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline;
+    line-height: 4em;
+    width: 100%;
 }
 
-div.desc_head{
-    text-align: left;
-    padding: 10px;
-}
-div.desc {
-    text-align: left;
-    padding: 10px;
-}
-
-.responsive {
-    padding: 6px;
-    float: left;
-    width: 24.99999%;
-}
-  
 @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+    .navbar_li_right {
+        display: none;
     }
-}
-  
-@media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-}
-  
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-.responsive .gallery {
-    background: white;
+    .hamburger_button {
+        display: inline;
+    }
+
 }
