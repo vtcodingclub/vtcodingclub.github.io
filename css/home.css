@@ -9,22 +9,22 @@ body {
 
 #circle_1 {
     position: absolute;
-    width: 50%;
-    padding-bottom: 50%;
+    width: 25vw;
+    padding-bottom: 25vw;
     background: #588FE4;
     border-radius: 50%;
-    top: -40%;
-    right: 85%;
+    top: -10vw;
+    left: -10vw;
 }
 
 #circle_2 {
     position: absolute;
-    width: 15%;
-    padding-bottom: 15%;
+    width: 15vw;
+    padding-bottom: 15vw;
     background: #80AFF6;
     border-radius: 50%;
-    top: 45%;
-    right: 55%;
+    top: 18vw;
+    left: 20vw;
 }
 
 .section_titles {

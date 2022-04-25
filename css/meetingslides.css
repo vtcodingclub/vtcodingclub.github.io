@@ -5,35 +5,38 @@ body {
 
 #pentagon_1 {
     position: absolute;
-	width: 22rem;
-	height: 22rem;
+    transform: rotate(-10deg);
+	width: 22vw;
+	height: 22vw;
 	background: #588FE4;
 	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
-    top: -34rem;
-    right: 50rem;
+    top: -16vw;
+    right: 80vw;
 }
 
 #pentagon_2 {
     position: absolute;
-    transform: rotate(185deg);
-    width: 12rem;
-    height: 12rem;
+    transform: rotate(182deg);
+    width: 15vw;
+    height: 15vw;
     background: #80AFF6;
     clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
-    top: -30rem;
-    right: 7rem;
+    top: -10vw;
+    right: 7vw;
 }
 
 #pentagon_3 {
     position: absolute;
-	width: 18rem;
-	height: 18rem;
+    transform: rotate(5deg);
+	width: 18vw;
+	height: 18vw;
 	background: #89CAFF;
 	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
-    top: -20rem;
-    right: 20rem;
+    top: -4vw;
+    right: 45vw;
 }
 
 .curved {
+    position: relative;
     filter: url("#curve");
 }
