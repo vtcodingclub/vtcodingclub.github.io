@@ -40,3 +40,117 @@ body {
     position: relative;
     filter: url("#curve");
 }
+
+
+
+
+
+/* Meeting Slides Section */
+
+
+.slides_page {
+	position:relative;
+	display:block;
+	margin:0 auto;
+	width:70%;
+	top: 50px;
+	z-index:1;
+	margin-bottom:10em;
+}
+
+.slide_filter {
+	height:auto;
+	border-radius:30px;
+	margin-bottom:40px;
+	list-style-type: none;
+	padding: 1px;
+	display:block;
+}
+.slide_filter_item {
+	position:relative;
+	display: inline-block;
+	font-size: 1.2em;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	transition:all 0.3s ease-in-out;
+	margin: 5px 5px;
+	width:130px;
+	padding:0px 10px;
+}
+
+.slide_filter li.slide_filter_active, .slide_filter li:hover{
+	background: #224C8D !important;
+	color: white;
+}
+
+.slides_container {
+	position:relative;
+	width:100%;
+	display:grid;
+	grid-gap:60px;
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(120px , 1fr));
+	margin:0 auto;
+}
+
+.slide {
+	overflow: hidden;
+	width:350px;
+	height: 380px;
+	border-radius:15px;
+	box-shadow: 0 0 0px #000000;
+}
+.slide:hover {
+	 box-shadow: 0 0 20px #000000;
+	 transition:0.3s;
+}
+.slide_image_container {
+	object-fit: cover;
+	width:100%;
+	height: 100%;
+	max-height:200px;
+	overflow:hidden;
+	transition:0.3s;
+}
+.slides_image {
+	width:100%;
+	height:auto;
+	transform: scale(1.1);
+	transition:0.3s;
+}
+.slide:hover .slides_image {
+	transform: scale(1);
+	transition:0.3s;
+}
+.about_slide_section {
+	padding:20px 20px 0px 20px;
+}
+.slide_name {
+	font-size:1.3em;
+	font-weight:bold;
+}
+.about_slide {
+	font-size:1.2em;
+	margin-bottom:30px;
+}
+
+.view_slides_button {
+	background: #224C8D;
+	color: white;
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 10px 20px;
+	transition: 0.3s;
+}
+
+.view_slides_button:hover {
+	background: transparent;
+	color: #224C8D;
+	border-radius: 20px;
+	border: #224C8D 2px solid;
+}
+
+
+/* Meeting Slides Section ^^^ */
