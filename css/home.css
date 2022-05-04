@@ -7,29 +7,107 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
+.desktop_navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background: #1F2938;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    z-index: 2;
+}
+
+.navbar_li {
+    display: inline;
+}
+
+.nav_text {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline;
+    margin: 0px 0px;
+    line-height: 50px;
+    padding-right: 35px;
+}
+
+.navbar_logo {
+    width: 40px;
+    height: auto;
+    top: 5px;
+    position: relative;
+    left: 35px;
+}
+
+.navbar_title {
+    left: 20px;
+    position: relative;
+}
+
+.navbar_li_right {
+    float: right;
+}
+
+.top_section {
+    background-color: #234C8A;
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+}
+
+.top_section img {
+    border-radius:25px;
+    width: 30%;
+    margin: 100px;
+    box-shadow: 5px -5px 40px -10px black;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    z-index: 1;
+}
+
+.top_section p {
+    margin: 80px;
+    z-index: 1;
+}
+
 #circle_1 {
     position: absolute;
-    width: 25vw;
-    padding-bottom: 25vw;
+    width: 50%;
+    padding-bottom: 50%;
     background: #588FE4;
     border-radius: 50%;
-    top: -10vw;
-    left: -10vw;
-}
+    top: -40%;
+    right: 85%;
+  }
 
 #circle_2 {
     position: absolute;
-    width: 15vw;
-    padding-bottom: 15vw;
+    width: 15%;
+    padding-bottom: 15%;
     background: #80AFF6;
     border-radius: 50%;
-    top: 18vw;
-    left: 20vw;
+    top: 45%;
+    right: 55%;
+  }
+
+@media only screen and (min-height: 1000px) {
+	#circle_1 {
+		top: -5%;
+	}
+
+	#circle_2 {
+		top: 10%;
+	}
 }
 
-.section_titles {
+h1 {
     color: var(--primary-color);
-    font-size: 2em;
+    font-size: 72px;
 }
 
 .collection .collection-pictures .desc_head {
@@ -52,17 +130,16 @@ div.gallery {
 }
   
 div.gallery .h img {
-    display: block;
-    width: 371px;
-    height: 371px;
+    width: 371;
+    height: 371;
     border-color: #1F2938;
 }
 
-/* * {
+* {
     box-sizing: border-box;
     border-radius: 10;
     border-image-width: 371;
-} */
+}
 
 div.desc_head{
     text-align: left;
@@ -101,3 +178,70 @@ div.desc {
 .responsive .gallery {
     background: white;
 }
+
+.hamburger_sidebar {
+    background-color: #234C8A;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: none;
+    margin: 0px 0px;
+    line-height: 100px;
+    padding-right: 35px;
+}
+
+.hamburger_button {
+    background: #1F2938;
+    top: 10%;
+    line-height: 40px;
+    position: absolute;
+    right: 4%;
+    font-family: 'Courier Prime', monospace;
+    border: none;
+    color: white;
+    font-size: 16px;
+    display: none;
+    z-index: 10;
+}
+
+.hamburger_bar {
+    background: #1F2938;
+    width: 100%;
+    height: 4em;
+    position: relative;
+    bottom: 0;
+    display: none;
+    z-index: 3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hamburger_bar:hover {
+    background: #80AFF6;
+}
+
+.hamburger_text {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: none;
+    margin: 0 0;
+}
+
+.hamburger_bar_text {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline;
+    line-height: 4em;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar_li_right {
+        display: none;
+    }
+
+    .hamburger_button {
+        display: inline;
+    }
