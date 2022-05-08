@@ -7,7 +7,7 @@
 
     background: #80AFF6;
     border-radius: 35px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .se_blue_square {
@@ -19,7 +19,7 @@
 
     background: #80AFF6;
     border-radius: 35px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .grey_square {
@@ -31,7 +31,7 @@
 
     background: #C4C4C4;
     border-radius: 15px;
-    z-index: 2;
+    z-index: 0;
 }
 
 .backdrop {
