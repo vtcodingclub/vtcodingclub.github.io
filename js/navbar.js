@@ -10,8 +10,8 @@ function burger_button() {
         document.getElementById("hamburger_bar1").style.display = "none";
         document.getElementById("hamburger_bar2").style.display = "none";
         document.getElementById("hamburger_bar3").style.display = "none";
+        }
     }
-}
 
 function Hider(x) {
     if (x.matches) {

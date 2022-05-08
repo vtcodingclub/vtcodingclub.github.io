@@ -1,0 +1,158 @@
+/* Navigation bar */
+.desktop_navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background: #1F2938;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    z-index: 2;
+}
+
+.navbar_li {
+    display: inline;
+}
+
+.nav_text {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline;
+    margin: 0px 0px;
+    line-height: 50px;
+    padding-right: 35px;
+}
+
+.navbar_logo {
+    width: 40px;
+    height: auto;
+    top: 5px;
+    position: relative;
+    left: 35px;
+}
+
+.navbar_title {
+    left: 20px;
+    position: relative;
+}
+
+.navbar_li_right {
+    float: right;
+}
+
+/* Navigation bar ^^^ */
+
+
+/* Top section */
+.top_section {
+    background-color: #234C8A;
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.top_section a {
+    z-index: 1;
+    display: inline-block;
+    margin: 100px;
+    margin-bottom: 40px;
+    width: 25%;
+    padding: 0;
+}
+
+.top_image {
+    border-radius:25px;
+    width: 100%;
+    box-shadow: 5px -5px 40px -10px black;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+.top_section p {
+    margin: 80px;
+    z-index: 1;
+}
+
+.top_title {
+    font-size: 2.8em; 
+    text-decoration: underline; 
+    text-decoration-color: black; 
+    text-decoration-thickness: 1px;
+}
+/* Top section ^^^ */
+
+.hamburger_sidebar {
+    background-color: #234C8A;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: none;
+    margin: 0px 0px;
+    line-height: 100px;
+    padding-right: 35px;
+}
+
+.hamburger_button {
+    background: #1F2938;
+    top: 10%;
+    line-height: 40px;
+    position: absolute;
+    right: 4%;
+    font-family: 'Courier Prime', monospace;
+    border: none;
+    color: white;
+    font-size: 16px;
+    display: none;
+    z-index: 10;
+}
+
+.hamburger_bar {
+    background: #1F2938;
+    width: 100%;
+    height: 4em;
+    position: relative;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hamburger_bar:hover {
+    background: #80AFF6;
+}
+
+.hamburger_text {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1em;
+    text-decoration: none;
+    display: none;
+    margin: 0 0;
+}
+
+.hamburger_bar_text {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline;
+    line-height: 4em;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar_li_right {
+        display: none;
+    }
+
+    .hamburger_button {
+        display: inline;
+    }
+}
+
+/* ^ mobile-reponsive navbar ^ */
