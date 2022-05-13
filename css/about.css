@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    font-family: 'Courier Prime', monospace;
+}
+
 .nw_blue_square {
     position: absolute;
     width: 700px;
