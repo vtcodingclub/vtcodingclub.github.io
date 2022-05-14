@@ -42,9 +42,6 @@ body {
 }
 
 
-
-
-
 /* Meeting Slides Section */
 
 
@@ -91,21 +88,27 @@ body {
 	display:grid;
 	grid-gap:60px;
 	justify-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(120px , 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(360px , 1fr));
 	margin:0 auto;
 }
 
 .slide {
 	overflow: hidden;
 	width:350px;
-	height: 380px;
+	height: 400px;
 	border-radius:15px;
-	box-shadow: 0 0 0px #000000;
+	box-shadow: 0 0 5px #000000;
 }
 .slide:hover {
 	 box-shadow: 0 0 20px #000000;
 	 transition:0.3s;
 }
+
+.slide_hyperlink {
+	text-decoration: none;
+	color: black;
+}
+
 .slide_image_container {
 	object-fit: cover;
 	width:100%;
@@ -154,3 +157,17 @@ body {
 
 
 /* Meeting Slides Section ^^^ */
+
+@media only screen and (max-width: 1000px) {
+	.slide_filter {
+		display:block;
+		margin: 0 auto;
+		width: 200px;
+		margin-bottom: 40px;
+	}
+	.slide_filter_item {
+		display: block;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+}
