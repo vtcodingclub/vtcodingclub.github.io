@@ -3,7 +3,54 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
-.nw_blue_square {
+.top_text {
+    margin: 250px 200px 250px 200px;
+    z-index: 2;
+}
+
+#square_1 {
+    position: absolute;
+    border-radius: 35px;
+    background: #80AFF6;
+    width: 40vw;
+    height: 35vh;
+    top: 1vw;
+    left: 1vw;
+}
+
+#square_2 {
+    position: absolute;
+    border-radius: 35px;
+    background: #80AFF6;
+    width: 45vw;
+    height: 35vh;
+    bottom: 37vh;
+    right: 1vw; 
+}
+
+#filler_square {
+    position: absolute;
+    border-radius: 15px;
+    width: 90vw;
+    height: 40vw;
+    background: lightgrey;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 700px) {
+    .top_text {
+        margin: 250px 50px 250px 50px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .top_text {
+        margin: 250px 200px 300px 200px;
+    }
+}
+/* .nw_blue_square {
     position: absolute;
     width: 700px;
     height: 465px;
@@ -82,4 +129,4 @@ body {
 
     color: #FFFFFF;
     z-index: 3;
-}
+} */

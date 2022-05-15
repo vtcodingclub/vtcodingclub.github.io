@@ -6,8 +6,8 @@ body {
 #pentagon_1 {
     position: absolute;
     transform: rotate(-10deg);
-	width: 22vw;
-	height: 22vw;
+	width: 22vh;
+	height: 22vh;
 	background: #588FE4;
 	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
     top: -16vw;
@@ -17,8 +17,8 @@ body {
 #pentagon_2 {
     position: absolute;
     transform: rotate(182deg);
-    width: 15vw;
-    height: 15vw;
+    width: 15vh;
+    height: 15vh;
     background: #80AFF6;
     clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
     top: -10vw;
@@ -28,20 +28,33 @@ body {
 #pentagon_3 {
     position: absolute;
     transform: rotate(5deg);
-	width: 18vw;
-	height: 18vw;
+	width: 18vh;
+	height: 18vh;
 	background: #89CAFF;
 	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
     top: -4vw;
     right: 45vw;
-}
+} 
 
 .curved {
     position: relative;
     filter: url("#curve");
 }
 
+@media only screen and (max-width: 700px) {
+    #pentagon_3 {
+      top: -50vw;
+    }
+  
+    #pentagon_2 {
+      top: -70vw;
+    }
 
+    #pentagon_1 {
+      top: -90vw;
+    }
+}
+ 
 /* Meeting Slides Section */
 
 
