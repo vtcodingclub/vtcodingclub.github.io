@@ -185,3 +185,39 @@
 }
 
 /* ^ mobile-reponsive navbar ^ */
+
+/* footer */
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+
+    background: #234C8A;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer .footer_content {
+    position: relative;
+    margin: 40px 10px 60px;
+    z-index: 1999;
+}
+
+footer .media_icons i {
+    color: white;
+    float: left;
+    margin: 1.5%;
+}
+
+footer .sign_up_info {
+    float: right;
+}
+
+footer .contact_email a {
+    color: white;
+    text-decoration: none;
+    z-index: 5;
+}
