@@ -3,6 +3,104 @@
 // Remove everything after the /embed?
 
 slides = [
+    {
+        "slide_name": "May 11th, 2022 Meeting Slides",
+        "about_slide": "May 11th, 2022",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1_uEJYcfGosJzlOp6nVbC0YzPFQWLSDL4TJWeus7G32A/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "How to Code and Deploy your own Website",
+        "about_slide": "April 27th - May 11th 2022",
+        "type": "workshop",
+        "slide_url": "https://docs.google.com/presentation/d/1Ke-Ij26hk8IxkDGQmqK4hYYjBOn3iASvIgjm-yBOFJo/edit?usp=sharing,
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Creating a Discord Bot in Python",
+        "about_slide": "April 6th - 13th 2022",
+        "type": "workshop",
+        "slide_url": "https://docs.google.com/presentation/d/1_uEJYcfGosJzlOp6nVbC0YzPFQWLSDL4TJWeus7G32A/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "March 30th, 2022 Meeting Slides",
+        "about_slide": "March 30th 2022",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1_uEJYcfGosJzlOp6nVbC0YzPFQWLSDL4TJWeus7G32A/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "March 2nd - 9th, 2022: Intro to Web Development Part 2",
+        "about_slide": "March 2nd - 9th, 2022",
+        "type": "workshop",
+        "slide_url": "https://docs.google.com/presentation/d/1_uEJYcfGosJzlOp6nVbC0YzPFQWLSDL4TJWeus7G32A/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "March 9th, 2022 Meeting Slides",
+        "about_slide": "March 9th, 2022",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1zZsnFG7KObOTpS1BGXJDm5xRgUW7gLJtZ58cxpK5fHM/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "February 16th, 2022 Meeting Slides",
+        "about_slide": "February 16th, 2022",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1lsp9RRZoBBkm6zN2tQE9ez4mj3OR1LWsqGSsTrl71pY/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Minecraft Python",
+        "about_slide": "February 9th - 16th, 2022",
+        "type": "workshop",
+        "slide_url": "https://docs.google.com/presentation/d/1UiHB8k8XqDRFNivfwIIFrs8MM69oKsOypQb4V8oxItQ/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Jan 19th - Feb 2nd 2022: Game Development with JavaScript Workshop",
+        "about_slide": "January 19th - February 2nd, 2022",
+        "type": "workshop",
+        "slide_url": "https://docs.google.com/presentation/d/1qDopcyFgYHjud97lVSN0rbFW9TGTbgmNjqAFinW70L8/edit?usp=sharing",
+        "iframe_url": ""
+    }
+    {
+        "slide_name": "January 12th, 2022 Meeting Slides",
+        "about_slide": "January 12th, 2022",
+        "type": "general",
+        "slide_url": " https://docs.google.com/presentation/d/1aD-LBRE1YPwBet-T3DhaD3vc8y37ivYVTTwFipKguac/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Dec 15th, 2021 Meeting Slides",
+        "about_slide": "December 15th, 2021",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1elwG4Na4FYDCdKvSWqYlK_kV2M1yU47UkWX7kDUJii8/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Dec 1st, 2021 Meeting Slides",
+        "about_slide": "December 1st, 2021",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1L_BPDgIoNcaQjhK1wyEkxgDI4FsH5SLV38rhptbq7sw/edit?usp=sharing",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Python Introduction",
+        "about_slide": "November 17th, 2021",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/16siK8XkoZdYFCR_PaQ5CjwRBA3uPUcvlI_Kgi314ydc/edit?usp=drivesdk",
+        "iframe_url": ""
+    },
+    {
+        "slide_name": "Nov 10th, 2021 Meeting Slides",
+        "about_slide": "November 10th, 2021",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1cLQ9vf3aGZezeOEbM2P-7cJm8fmQpxpNP6hJKV1-RiY/edit?usp=sharing",
+        "iframe_url": ""
+    },
   {
       "slide_name": "Intro to Web Development Part 1",
       "about_slide": "October 20th - 27th, 2021",
