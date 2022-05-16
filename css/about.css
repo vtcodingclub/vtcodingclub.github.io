@@ -14,7 +14,7 @@ body {
     background: #80AFF6;
     width: 40vw;
     height: 35vh;
-    top: 1vw;
+    top: 10vw;
     left: 1vw;
 }
 
@@ -22,31 +22,49 @@ body {
     position: absolute;
     border-radius: 35px;
     background: #80AFF6;
-    width: 45vw;
+    width: 40vw;
     height: 35vh;
-    bottom: 37vh;
+    bottom: 10vh;
     right: 1vw; 
 }
 
 #filler_square {
     position: absolute;
     border-radius: 15px;
-    width: 90vw;
-    height: 40vw;
+    width: 80vw;
+    height: 45vh;
     background: lightgrey;
     left: 50%;
-    bottom: 40%;
+    top: 30%;
     transform: translate(-50%, 0);
 }
 
+
 @media only screen and (max-width: 700px) {
     .top_text {
+        top: 40%;
         margin: 250px 50px 250px 50px;
+    }
+
+    #filler_square {
+        height: 50vh;
+        top: 35%;
+        left: 50%;
+        width: 90vw;
+    }
+
+    #square_1 {
+        top: 24vh;
+    }
+
+    #square_2 {
+        bottom: 6vh;
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .top_text {
+        top: 40%;
         margin: 250px 200px 300px 200px;
     }
 }
@@ -73,84 +91,3 @@ body {
     background: #89CAFF;
     border-radius: 50%;
 }
-
-/* .nw_blue_square {
-    position: absolute;
-    width: 700px;
-    height: 465px;
-    left: 37px;
-    top: 112px;
-
-    background: #80AFF6;
-    border-radius: 35px;
-    z-index: -1;
-}
-
-.se_blue_square {
-    position: absolute;
-    width: 700px;
-    height: 450px;
-    left: 709px;
-    top: 395px;
-
-    background: #80AFF6;
-    border-radius: 35px;
-    z-index: -1;
-}
-
-.grey_square {
-    position: absolute;
-    width: 1250px;
-    height: 600px;
-    left: 100px;
-    top: 169px;
-
-    background: #C4C4C4;
-    border-radius: 15px;
-    z-index: 0;
-}
-
-.backdrop {
-    position: absolute;
-    width: 1440px;
-    height: 917px;
-    left: 0px;
-    top: 0px;
-
-    background: #224C8D;
-    z-index: -2;
-}
-
-.about_header {
-    position: absolute;
-    width: 700px;
-    height: 58px;
-    left: 696px;
-    top: 341px;
-
-    font-family: 'Courier Prime', monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3em;
-    line-height: 81px;
-
-    color: #FFFFFF;
-    z-index: 3;
-}
-
-.about_text {
-    position: absolute;
-    width: 690px;
-    height: 164.94px;
-    left: 700.5px;
-    top: 444px;
-
-    font-family: 'Courier Prime', monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2em;
-    line-height: 31px;
-
-    color: #FFFFFF;
-    z-index: 3;
-} */
