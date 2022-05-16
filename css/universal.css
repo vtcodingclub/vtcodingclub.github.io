@@ -129,7 +129,7 @@
     .nav_text:hover{
         background: #80AFF6;
     }
-=
+
     .desktop_navbar.responsive {position: relative;}
     .desktop_navbar.responsive li.icon {
         position: absolute;
@@ -155,4 +155,50 @@
         padding-right: 35px;
         float: right;
     }
+
+}
+
+/* ^ mobile-reponsive navbar ^ */
+
+/* footer */
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+
+    background: #234C8A;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer .footer_content {
+    position: relative;
+    margin: 40px 10px 40px;
+    z-index: 1999;
+}
+
+footer .media_icons i {
+    color: white;
+    float: left;
+    margin: 1.5%;
+}
+
+footer .footer_sign_up {
+    float: right;
+    color: white;
+    font-size: 1.5em;
+    margin-right: 50px;
+}
+
+footer .footer_sign_up a {
+    color: hotpink;
+}
+
+footer .contact_email a {
+    color: white;
+    text-decoration: none;
+    z-index: 5;
 }

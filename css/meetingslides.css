@@ -41,6 +41,29 @@ body {
     filter: url("#curve");
 }
 
+#footer_shape_1 {
+    position: absolute;
+    left: 45%;
+    top: 0;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 120px 75px 0 75px;
+    border-color: #588FE4 transparent transparent transparent;
+}
+
+#footer_shape_2 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+
+    width: 20%;
+    padding-bottom: 20%;
+    background: #80AFF6;
+    clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+}
+
 @media only screen and (max-width: 700px) {
     #pentagon_3 {
       top: -50vw;
@@ -53,6 +76,10 @@ body {
     #pentagon_1 {
       top: -90vw;
     }
+
+	#footer_shape_2 {
+		top: 70%;
+	}
 }
  
 /* Meeting Slides Section */
