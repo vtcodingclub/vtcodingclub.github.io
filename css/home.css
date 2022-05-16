@@ -7,6 +7,29 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
+#footer_shape_1 {
+    position: absolute;
+    left: 45%;
+    top: 0;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 120px 75px 0 75px;
+    border-color: #588FE4 transparent transparent transparent;
+}
+
+#footer_shape_2 {
+    position: absolute;
+    top: 45%;
+    right: -2%;
+
+    width: 30%;
+    padding-bottom: 30%;
+    background: #89CAFF;
+    border-radius: 50%;
+}
+
 #circle_1 {
     position: absolute;
     width: 25vw;

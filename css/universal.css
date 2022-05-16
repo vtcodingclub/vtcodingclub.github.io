@@ -202,7 +202,7 @@ footer {
 
 footer .footer_content {
     position: relative;
-    margin: 40px 10px 60px;
+    margin: 40px 10px 40px;
     z-index: 1999;
 }
 
@@ -212,8 +212,15 @@ footer .media_icons i {
     margin: 1.5%;
 }
 
-footer .sign_up_info {
+footer .footer_sign_up {
     float: right;
+    color: white;
+    font-size: 1.5em;
+    margin-right: 50px;
+}
+
+footer .footer_sign_up a {
+    color: hotpink;
 }
 
 footer .contact_email a {
