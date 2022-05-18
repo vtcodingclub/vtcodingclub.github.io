@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8", name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Meeting Slides | Van Tech Coding Club</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,38 +15,37 @@
 
     <link href="css/universal.css" rel="stylesheet" type="text/css">	
     <link href="css/meetingslides.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/841ed0000c.js" crossorigin="anonymous"></script>
 		
 </head>
 
 <body>
 
     <nav>
-        <ul class="desktop_navbar">
+        <ul class="desktop_navbar" id="navbar">
+            <li><button onclick="burger_button()" class="navbut_text nav_button">Menu</button></li>
             <li class="navbar_li"><a class="nav_text"><img class="navbar_logo" src="images/logo.png" alt="VanTech Coding Club Logo"/></a></li>
             <li class="navbar_li navbar_title"><a class="nav_text" href="">VAN TECH CODING CLUB</a></li>
-
             <li class="navbar_li navbar_li_right"><a class="nav_text" href="meetingslides.html">Meeting Slides</a></li>
             <li class="navbar_li navbar_li_right"><a class="nav_text" href="about.html">About</a></li>
             <li class="navbar_li navbar_li_right"><a class="nav_text" href="index.html">Home</a></li>
-
-            <li><button onclick="burger_button()" class="hamburger_button">Menu</button></li>
-            <li class="hamburger_bar" id="hamburger_bar1"><a class="hamburger_bar_text" href="index.html">Home</a></li>
-            <li class="hamburger_bar" id="hamburger_bar2"><a class="hamburger_bar_text" href="about.html">About</a></li>
-            <li class="hamburger_bar" id="hamburger_bar3"><a class="hamburger_bar_text" href="meetingslides.html">Meeting Slides</a></li>
-
         </ul>
     </nav>
 
     <!-- Top Section of the website -->
     <header>
         <div class="top_section">
-            <a href="links.html">
-                <img class="top_image" src="images\linkinbiologo.png" alt="club logo">
-            </a>
-            <p>
-                <span class="top_title">Meeting Slides</span><br>
-                Here are all of our past meeting slides. View them if u need help on a project or for fun idk you do you fam
-            </p>
+            <div class="left_container">
+                <a href="links.html">
+                    <img class="top_image" src="images\linkinbiologo.png" alt="club logo">
+                </a>
+            </div>
+            <div class="right_container">
+                <p>
+                    <span class="top_title">Meeting Slides</span><br>
+                    Here are all of our past meeting slides. View them if u need help on a project or for fun idk you do you fam
+                </p>
+            </div>
             <div class="curved">
                 <div id="pentagon_3"></div>
             </div>
@@ -112,7 +111,22 @@
     <!-- Meeting Slides section -->
 
 
-    
+    <footer>
+        <div class="footer_content">
+            <p class="footer_sign_up">Sign up <a href="https://forms.gle/Wnu8XSo7ocmUbmJNA" target="_blank">here!</a></p>
+          <div class="contact_email">
+            <p>Questions? Contact us here!</p>
+            <p><a href="mailto:vtcodingclub@gmail.com">vtcodingclub@gmail.com</a></p>
+          </div>
+          <div class="media_icons">
+            <a href="https://www.instagram.com/vtcodingclub/" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="https://discord.gg/Bw62yHXa82" target="_blank"><i class="fa-brands fa-discord fa-3x"></i></a>
+          </div>
+        </div>
+        <div id="footer_shape_1"></div>
+        <div id="footer_shape_2"></div>
+    </footer>
+
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>

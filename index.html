@@ -12,25 +12,19 @@
 
     <link href="css/universal.css" rel="stylesheet" type="text/css">	
     <link rel="stylesheet" type="text/css" href="css/home.css">
-		
+    <script src="https://kit.fontawesome.com/841ed0000c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <nav>
-        <ul class="desktop_navbar">
+        <ul class="desktop_navbar" id="navbar">
+            <li><button onclick="burger_button()" class="navbut_text nav_button">Menu</button></li>
             <li class="navbar_li"><a class="nav_text"><img class="navbar_logo" src="images/logo.png" alt="VanTech Coding Club Logo"/></a></li>
             <li class="navbar_li navbar_title"><a class="nav_text" href="">VAN TECH CODING CLUB</a></li>
-            
             <li class="navbar_li navbar_li_right"><a class="nav_text" href="meetingslides.html">Meeting Slides</a></li>
             <li class="navbar_li navbar_li_right"><a class="nav_text" href="about.html">About</a></li>
             <li class="navbar_li navbar_li_right"><a class="nav_text" href="index.html">Home</a></li>
-
-            <li><button onclick="burger_button()" class="hamburger_button">Menu</button></li>
-            <li class="hamburger_bar" id="hamburger_bar1"><a class="hamburger_bar_text" href="index.html">Home</a></li>
-            <li class="hamburger_bar" id="hamburger_bar2"><a class="hamburger_bar_text" href="about.html">About</a></li>
-            <li class="hamburger_bar" id="hamburger_bar3"><a class="hamburger_bar_text" href="meetingslides.html">Meeting Slides</a></li>
-        </ul>
     </nav>
 
     <header>
@@ -98,6 +92,26 @@
       </div>     
     </section>
 
+          </div>
+          <div class="clearfix"></div>
+        </section>
+        </section>
+    
+        <footer>
+          <div class="footer_content">
+            <p class="footer_sign_up">Sign up <a href="https://forms.gle/Wnu8XSo7ocmUbmJNA" target="_blank">here!</a></p>
+            <div class="contact_email">
+              <p>Questions? Contact us here!</p>
+              <p><a href="mailto:vtcodingclub@gmail.com">vtcodingclub@gmail.com</a></p>
+            </div>
+            <div class="media_icons">
+              <a href="https://www.instagram.com/vtcodingclub/" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
+              <a href="https://discord.gg/Bw62yHXa82" target="_blank"><i class="fa-brands fa-discord fa-3x"></i></a>
+            </div>
+          </div>
+          <div id="footer_shape_1"></div>
+          <div id="footer_shape_2"></div>
+      </footer>
 </body>
 <script src="js/navbar.js"></script>
 </html>
