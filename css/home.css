@@ -48,12 +48,24 @@ body {
     border-radius: 50%;
     top: 25vw;
     left: 25vw;
+    animation: bounce_circle2 2s alternate infinite;
+}
+
+@keyframes bounce_circle2 {
+    from{top: 25vw;}
+    to {top: 27vw;}
+}
+
+.top_section_text {
+    text-align: left;
+    width: 90%;
 }
 
 .activites_container {
     width: 80%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .section_titles {
@@ -83,6 +95,7 @@ body {
 .activity_image {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .activity_title {

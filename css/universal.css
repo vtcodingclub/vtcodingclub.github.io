@@ -71,6 +71,18 @@
     box-shadow: 5px -5px 40px -10px black;
     -moz-border-radius:25px;
     -webkit-border-radius:25px;
+    transition: 0.3s;
+    animation: top_image_slide 1s;
+    position: relative;
+}
+
+@keyframes top_image_slide {
+    from {top:-500px;}
+    to {top: 0;}
+}
+
+.top_image:hover {
+    transform: scale(1.05);
 }
 
 .top_section .right_container {
