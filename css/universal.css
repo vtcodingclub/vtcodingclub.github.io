@@ -81,10 +81,7 @@
 }
 
 .top_title {
-    font-size: 2.8em; 
-    text-decoration: underline; 
-    text-decoration-color: black; 
-    text-decoration-thickness: 1px;
+    font-size: 2.8em;
 }
 
 @media only screen and (max-width: 700px) {
@@ -148,6 +145,13 @@
 
     .navbar_li_right:hover{
         background: #80AFF6;
+    }
+    
+    .desktop_navbar.responsive {position: relative;}
+    .desktop_navbar.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     .desktop_navbar.responsive li {
@@ -213,17 +217,6 @@ footer .media_icons i {
     color: white;
     float: left;
     margin: 1.5%;
-}
-
-footer .footer_sign_up {
-    float: right;
-    color: white;
-    font-size: 1.5em;
-    margin-right: 50px;
-}
-
-footer .footer_sign_up a {
-    color: hotpink;
 }
 
 footer .contact_email a {
