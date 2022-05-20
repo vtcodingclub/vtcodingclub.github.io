@@ -69,6 +69,37 @@ body {
     }
 }
 
+.name_text {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #2D4B89;
+    margin: 5px 0 5px 0;
+}
+
+.body_text {
+    font-family: 'Courier Prime', monospace;
+    color: #2D4B89;
+
+}
+
+div.gallery {
+    margin: auto;
+    border: none;
+    float: left;
+    display: block;
+    padding-left: 10vw;
+    padding-bottom: 5vw;
+}
+
+div.gallery .h img {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    border-color: #1F2938;
+    background: grey;
+    justify-content: center;
+    align-items: center;
+}
+
 #footer_shape_1 {
     position: absolute;
     left: 30%;
