@@ -3,70 +3,49 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
-.top_text {
-    margin: 250px 200px 250px 200px;
-    z-index: 1;
+.about_top_section {
+    position: relative;
+    background-color: #234C8A;
+    width: 100%;
+    min-height: 100vh;
 }
 
-#square_1 {
-    position: absolute;
+.square_1 {
+    position: relative;
     border-radius: 35px;
     background: #80AFF6;
     width: 40vw;
     height: 35vh;
-    top: 10vw;
+    top: 15vh;
     left: 1vw;
 }
 
-#square_2 {
-    position: absolute;
+.square_2 {
+    position: relative;
     border-radius: 35px;
     background: #80AFF6;
     width: 40vw;
     height: 35vh;
-    bottom: 10vh;
-    right: 1vw; 
+    top: -45vh;
+    float: right;
+    right: 1vw;
 }
 
-#filler_square {
-    position: absolute;
+.filler_square {
     border-radius: 15px;
     width: 80vw;
-    height: 45vh;
+    height: 76vh;
     background: lightgrey;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, 0);
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    top: -15.5vh;
 }
 
-
-@media only screen and (max-width: 700px) {
-    .top_text {
-        top: 40%;
-        margin: 250px 50px 250px 50px;
-    }
-
-    #filler_square {
-        height: 50vh;
-        top: 35%;
-        left: 50%;
-        width: 90vw;
-    }
-
-    #square_1 {
-        top: 24vh;
-    }
-
-    #square_2 {
-        bottom: 6vh;
-    }
-}
-
-@media only screen and (min-width: 1600px) {
-    .top_text {
-        top: 40%;
-        margin: 250px 200px 300px 200px;
-    }
+.about_top_text {
+    width: 50%;
+    float: right;
+    color: white;
 }
 
 .name_text {

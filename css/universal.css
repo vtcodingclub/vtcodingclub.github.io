@@ -78,6 +78,7 @@
     font-size: 1.2em;
     display: flex;
     align-items: center;
+    height: auto;
 }
 
 .top_section .left_container {
