@@ -182,8 +182,8 @@ for (let i=0; i < slides.length; i++) {
   slide_container.appendChild(slide_preview_container);
   slide_container.appendChild(about_slide_container);
 
-  slide_hyperlink.appendChild(slide_container);
-  slides_container.appendChild(slide_hyperlink);
+  slide_container.appendChild(slide_hyperlink);
+  slides_container.appendChild(slide_container);
 }
 
 // Filter slides
