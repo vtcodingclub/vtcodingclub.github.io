@@ -56,11 +56,6 @@ body {
     to {top: 27vw;}
 }
 
-.top_section_text {
-    text-align: left;
-    width: 90%;
-}
-
 .activites_container {
     width: 80%;
     display: block;

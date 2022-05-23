@@ -40,12 +40,22 @@ body {
     z-index: 1;
     position: relative;
     top: -15.5vh;
+    overflow: hidden;
+}
+
+.slide_show_image {
+    width: 100%;
+    height: auto;
+    filter: brightness(40%);
 }
 
 .about_top_text {
     width: 50%;
     float: right;
     color: white;
+    position: relative;
+    top: -100vh;
+    z-index: 1;
 }
 
 .exec_section {
