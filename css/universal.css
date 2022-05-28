@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation bar */
 .desktop_navbar {
     position: fixed;
