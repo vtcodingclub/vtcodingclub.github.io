@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation bar */
 .desktop_navbar {
     position: fixed;
@@ -21,7 +25,7 @@
     font-size: 1em;
     text-decoration: none;
     display: inline;
-    margin: 0px 0px;
+    margin: 0px 10px;
     line-height: 50px;
     padding-right: 35px;
     transition: 0.3s;
@@ -36,20 +40,23 @@
 }
 
 .navbar_logo {
-    width: 40px;
+    float: right;
+    width: 50px;
     height: auto;
     top: 5px;
     position: relative;
-    left: 35px;
+    top: 12px;
+    margin-right: 10px;
 }
 
 .navbar_title {
+    float: right;
     left: 20px;
     position: relative;
 }
 
-.navbar_li_right {
-    float: right;
+.navbar_li_left {
+    float: left;
 }
 
 .joc {
@@ -110,6 +117,7 @@
     margin-bottom: 40px;
     border-radius:25px;
     width: 25vw;
+    max-width: 400px;
     box-shadow: 5px -5px 40px -10px black;
     -moz-border-radius:25px;
     -webkit-border-radius:25px;
@@ -176,7 +184,7 @@
     display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
     .desktop_navbar.responsive {
         top: -1%;
         width: 100%;
@@ -202,10 +210,19 @@
         text-align: center;
     }
 
-    .navbar_li_right:hover{
+    .navbar_li_left:hover{
         background: #80AFF6;
     }
     
+    .navbar_logo {
+        margin-left: 10px;
+        float: left;
+    }
+    
+    .navbar_title {
+        float: left;
+    }
+
     .desktop_navbar.responsive {position: relative;}
     .desktop_navbar.responsive li.icon {
         position: absolute;
@@ -217,7 +234,7 @@
         float: none;
         display: block;
         width: 100vw;
-        text-align: left;
+        text-align: center;
     }
 
     .desktop_navbar.responsive li:nth-child(3){
@@ -238,14 +255,14 @@
         float: right;
     }
 
-    .navbar_li_right {
-        float: left;
+    .navbar_li_left {
         width: 100%;
         height: 10vw;
         padding-left: 35px;
         margin: auto;
         border: none;
         display: inline-block;
+        text-align: center;
         background: #1F2938;
     }
 
