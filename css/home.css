@@ -46,14 +46,14 @@ body {
     padding-bottom: 15vw;
     background: #80AFF6;
     border-radius: 50%;
-    top: 25vw;
-    left: 25vw;
+    top: 24vh;
+    left: 17vw;
     animation: bounce_circle2 2s alternate infinite;
 }
 
 @keyframes bounce_circle2 {
-    from{top: 25vw;}
-    to {top: 27vw;}
+    from{top: 24vh;}
+    to {top: 27vh;}
 }
 
 .top_section_text {
