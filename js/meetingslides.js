@@ -69,21 +69,21 @@ slides = [
     {
         "slide_name": "January 12th, 2022 Meeting Slides",
         "about_slide": "January 12th, 2022",
-        "type": "general",
+        "type": "event",
         "slide_url": "https://docs.google.com/presentation/d/1aD-LBRE1YPwBet-T3DhaD3vc8y37ivYVTTwFipKguac/edit?usp=sharing",
         "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vQEDqVj3Ef3dXaD2veyHGrGwB-lEj0VK1hNdGo8GhV5-ZlqY61l6YTJ7RJT7_n2szQp2eBwl_AGbHkw/embed?"
     },
     {
         "slide_name": "Dec 15th, 2021 Meeting Slides",
         "about_slide": "December 15th, 2021",
-        "type": "general",
+        "type": "event",
         "slide_url": "https://docs.google.com/presentation/d/1elwG4Na4FYDCdKvSWqYlK_kV2M1yU47UkWX7kDUJii8/edit?usp=sharing",
         "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vT7RztrWvweUzPFx7w8ryAMKH8FHow9osnPvKuALB7kzarG3w87V_hElX40NrgIU0jbCTURcHoe49v3/embed?"
     },
     {
         "slide_name": "Dec 1st, 2021 Meeting Slides",
         "about_slide": "December 1st, 2021",
-        "type": "general",
+        "type": "event",
         "slide_url": "https://docs.google.com/presentation/d/1L_BPDgIoNcaQjhK1wyEkxgDI4FsH5SLV38rhptbq7sw/edit?usp=sharing",
         "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vR8yx-jeeOnQMNPIHkn-eqJsJtCYvQsuz3ThouaClWou9blMY7sKof4LdVme0uFrThYr418V5fAYC9I/embed?"
     },
