@@ -9,7 +9,7 @@ slides = [
         "type": "workshop",
         "slide_url": "https://docs.google.com/presentation/d/1ZHuyW5OGIJ6AO1T8UMyI6Tm9JJKoYcy5DlrhaQaAELU/edit?usp=sharing",
         "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vQcmQJRFkW1H_mea3G6Gkd0MIuWK2LsR5hIKIyK--Ex9fjjj39awQ1lI8imlJxeStOH1KglbGDPzfti/embed?"
-    }
+    },
     {
         "slide_name": "May 11th, 2022 Meeting Slides",
         "about_slide": "May 11th, 2022",
