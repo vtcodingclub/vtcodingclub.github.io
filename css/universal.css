@@ -178,17 +178,25 @@ html {
         text-align: center;
         width: 100%;
     }
+
+    .nav_text {
+        margin: 0;
+    }
 }
 
 /* Top section ^^^ */
 
 .nav_button {
     display: none;
+    cursor: pointer;
+}
+
+.desktop_navbar.responsive {
+    position: fixed;
 }
 
 @media screen and (max-width: 1080px) {
     .desktop_navbar.responsive {
-        top: -1%;
         width: 100%;
         height: 50px;
         border: none;
@@ -199,8 +207,13 @@ html {
     }
 
     .desktop_navbar li.nav_button {
-        float: right;
+        float: left;
         display: block;
+    }
+    .navbar_logo {
+        float: left;
+        margin-left: 25px;
+        margin-right: -40px;
     }
 
     .nav_text.responsive{
@@ -208,15 +221,24 @@ html {
         font-size: 1em;
         text-decoration: none;
         display: block;
-        line-height: 50px;
+        line-height: auto;
         text-align: center;
     }
-
+    .nav_text:hover {color:#1F2938}
+    .navbar_li_right {
+        /* width: 100%;
+        height: 10vw; */
+        /* padding-left: 35px; */
+        margin: auto;
+        border: none;
+        display: inline-block;
+        text-align: center;
+        background: #1F2938;
+    }
     .navbar_li_right:hover{
         background: #80AFF6;
     }
 
-    .desktop_navbar.responsive {position: relative;}
     .desktop_navbar.responsive li.icon {
         position: absolute;
         right: 0;
@@ -235,7 +257,8 @@ html {
     }
 
     .nav_button {
-        display: inline;
+        display: block;
+        position: absolute;
         font-family: 'Courier Prime', monospace;
         color: white;
         background: #1F2938;
@@ -244,31 +267,26 @@ html {
         text-decoration: none;
         margin: 0px 0px;
         line-height: 45px;
-        padding-right: 35px;
+        /* padding-right: 35px; */
+        right: 25px;
         float: right;
-    }
-
-    .navbar_li_right {
-        width: 100%;
-        height: 10vw;
-        padding-left: 35px;
-        margin: auto;
-        border: none;
-        display: inline-block;
-        text-align: center;
-        background: #1F2938;
     }
 
     .joc {
         border-radius: 0;
         background: none;
-        z-index: -1;
+        /* z-index: -1; */
+        padding-right: 35px;
     }
 
     .joc:hover {
-        background: #80AFF6;
-        color: #89CAFF;
+        background: none;
+        color: none;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar_title {display: none;}
 }
 
 /* ^ mobile-reponsive navbar ^ */
