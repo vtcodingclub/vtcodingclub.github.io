@@ -4,6 +4,27 @@
 
 slides = [
     {
+        "slide_name": "Competitive Programming Practice Problems",
+        "about_slide": "Jan 25th, 2023",
+        "type": "general",
+        "slide_url": "https://docs.google.com/presentation/d/1e4hXfni6qPFSrCYx3OV9-MZ44XSjL6VVFZBZs8T5h48/edit?usp=sharing",
+        "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vSeoCUUCd9BpfIdYAmPLXog0htrwUiU13axjAeVchL0DiS4LiPZct1E_IeN_DGAVMBhmLXPfhoPUsL3/embed?"
+    },
+    {
+        "slide_name": "Intro to Competitive Programming Workshop",
+        "about_slide": "Jan 18th, 2023",
+        "type": "workshop",
+        "slide_url": "https://docs.google.com/presentation/d/1PLrtt-voJL-_YKC1LUeAlO7M4XB_umbDmgZiBW4FHrY/edit?usp=sharing",
+        "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vQW-taalQaHMidv-xxNpn2Qu90YbIqL1o8ycwLpyyL876w1eaNkskIvabdNTULzCsVNM1tvJHhBqLUL/embed?"
+    },
+    {
+        "slide_name": "Winter Codefest 2022",
+        "about_slide": "Dec 7th, 2022",
+        "type": "event",
+        "slide_url": "https://docs.google.com/presentation/d/1YMqXl6k5yrG8XzbYwBm31pUL1UxxIcaODsc48trzOhI/edit?usp=sharing",
+        "iframe_url": "https://docs.google.com/presentation/d/e/2PACX-1vRsMlo74G0E7xWYaeKQ-3uLIbxgVDGYoDCspn16NWa_0nV_2X2mYTPrBi9X7SOMXvJ9hwSsROx29hqb/embed?"
+    },
+    {
         "slide_name": "Web Scraping with Python Workshop",
         "about_slide": "May 25th, 2022",
         "type": "workshop",
