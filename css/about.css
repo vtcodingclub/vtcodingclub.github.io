@@ -169,11 +169,15 @@ body {
     text-align: center;
 }
 
+.exec_socials_icon {
+    margin: 10px;
+}
+
 .exec_bio {
     color: white;
     position: relative;
     z-index: 2;
-    top: -280px;
+    top: -120%;
     width: 95%;
     font-size: 1em;
     left: -100%;
